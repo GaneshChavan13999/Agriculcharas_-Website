@@ -1,0 +1,47 @@
+/*header*/
+.header{
+	font-size:28px;
+	text-align:left;
+	background-color:rgba(0,0,20,0.40);
+	color:white;
+	margin:auto;
+	padding:10px 0px 10px 0px;
+	display:block;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+/*footer*/
+.footer,.footer1{
+	color:white;
+}
+/*for fade in effect hide content*/
+.body{
+	display:none;
+	background-attachment: fixed;
+background-repeat:no repeat;
+}
+
+
+.logout{
+	border:none;
+	border-radius:05px;
+	float:right;
+	margin-top:-23px;
+	margin-right:10px;
+	width:120px;
+	height:50px;
+	background-color:red;
+	color:white;
+	font-size:14px;
+	transition-duration:0.80s;
+}
+.logout:hover{
+	background-color:green;
+	width:150px;
+}
+.header1{
+	margin-left:10px;
+}
